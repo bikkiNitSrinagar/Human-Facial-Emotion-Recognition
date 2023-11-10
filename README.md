@@ -24,6 +24,10 @@ A tensorflow/keras implementation of a facial emotion recognition model based on
  ![image](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/746d68f9-f4f6-48f9-85f1-ad92115c945b)
  
  ![image](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/f5dcbe5a-4dc2-4f8c-8d72-c77362ae4df4)
+# Improving Model Performance
+## Baseline Model
+Used  [neha01]  model as baseline model which is based on a 3 block convolutional neural network architecture. It achieved ~57.5% test accuracy on FER2013 dataset.
+ 
 
 
 
