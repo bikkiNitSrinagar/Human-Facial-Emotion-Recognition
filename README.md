@@ -21,3 +21,9 @@ A tensorflow/keras implementation of a facial emotion recognition model based on
  # Here are some test examples:
  ![image](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/514fefcd-93b8-4795-835f-c8516521e86c)
 
+ ![image](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/746d68f9-f4f6-48f9-85f1-ad92115c945b)
+ 
+ ![image](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/f5dcbe5a-4dc2-4f8c-8d72-c77362ae4df4)
+
+
+
