@@ -15,4 +15,6 @@ A tensorflow/keras implementation of a facial emotion recognition model based on
 * numpy >= 1.18.5
 * pandas >= 1.1.2
 * matplotlib >= 3.3.1
-  
+## Installation
+ 1.Clone the repo
+ [fhf]
