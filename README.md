@@ -49,11 +49,13 @@ Both layers are added to our model improving performance by ~5%
 
 # Performance Analysis
 Plotting the accuracy and loss of the trained model is always the first step to anaylze how the the model is performing. Here are two pictures illustrating the difference in performance between one of the initial architectures and the final architecture.
+
 ![96019814-5d913480-0e4d-11eb-8679-b278ab47840d](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/3f99d114-2c8c-4165-ad7f-74cd6204c424) ![96056745-aebe1a00-0e87-11eb-9198-ceb4e274b50b](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/4758c8aa-93bf-46aa-b187-6db7cc8b28b5)
 
 The plot on the left is for our initial architecture, we can see that the model started to overfit in the early epochs which meant that either that model wasn't the best fit for the dataset or that the dataset itself wasn't sufficient for the model to learn enough features to be able to predict with high accuracy.
 On the other hand, the plot on the right shows that the cross-validation accuracy was keeping up with the training accuracy up to the 80s which is a good sign and it's certainly an improved performance from the one on the left.
 Our final architecture had a test accuracy of ~84%. The architecture is a combination of these 3 blocks:
+
 ![96025592-9df4b080-0e55-11eb-917f-19b17820c4e0](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/8c756645-7e23-4b60-ac80-e25510583329) ![96025536-8caba400-0e55-11eb-8f27-29e9182459ac](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/8d523be8-398c-4dc2-b21a-16a38a515da6) ![96025489-7aca0100-0e55-11eb-8b08-ed17fcf30ba7](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/c312a42d-b09e-48c6-ad8d-04deda7cb1c3)
 
 However, depending on only the accuracy and loss of the trained model doesn't always give a full understanding of the model's performance.
