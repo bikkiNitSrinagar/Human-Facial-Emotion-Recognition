@@ -4,3 +4,14 @@ A tensorflow/keras implementation of a facial emotion recognition model based on
 * Keras
 * Tensorflow
 * OpenCV
+
+# Getting Started
+## Prerequisites
+* python >= 3.7.9
+* keras >= 2.4.3
+* tensorflow >= 2.3.1
+* opencv >= 4.4
+* sklearn >= 0.23
+* numpy >= 1.18.5
+* pandas >= 1.1.2
+* matplotlib >= 3.3.1
