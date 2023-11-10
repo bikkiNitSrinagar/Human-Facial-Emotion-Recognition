@@ -27,7 +27,7 @@ A tensorflow/keras implementation of a facial emotion recognition model based on
 
 # Improving Model Performance
 ## Baseline Model
-Used [neha01]([URL to navigate](https://github.com/neha01/Realtime-Emotion-Detectio)) model as baseline model which is based on a 3 block convolutional neural network architecture. It achieved ~57.5% test accuracy on FER2013 dataset.
+Used [neha01](https://github.com/neha01/Realtime-Emotion-Detectio) model as baseline model which is based on a 3 block convolutional neural network architecture. It achieved ~57.5% test accuracy on FER2013 dataset.
  
 
 
