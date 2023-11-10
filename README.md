@@ -55,14 +55,15 @@ The plot on the left is for our initial architecture, we can see that the model 
 On the other hand, the plot on the right shows that the cross-validation accuracy was keeping up with the training accuracy up to the 80s which is a good sign and it's certainly an improved performance from the one on the left.
 Our final architecture had a test accuracy of ~84%. The architecture is a combination of these 3 blocks:
 ![96025592-9df4b080-0e55-11eb-917f-19b17820c4e0](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/8c756645-7e23-4b60-ac80-e25510583329) ![96025536-8caba400-0e55-11eb-8f27-29e9182459ac](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/8d523be8-398c-4dc2-b21a-16a38a515da6) ![96025489-7aca0100-0e55-11eb-8b08-ed17fcf30ba7](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/c312a42d-b09e-48c6-ad8d-04deda7cb1c3)
+
 However, depending on only the accuracy and loss of the trained model doesn't always give a full understanding of the model's performance.
 There are more advanced metrics that can be used like the F1 score which we decided to use. The F1 score is calculated using two pre-calculated metrics: precision and recall. These two metrics utilize the true positive, false positive and false negative predicted examples which are best visualised using the confusion matrix.
 You can checkout [](https://medium.com/analytics-vidhya/confusion-matrix-accuracy-precision-recall-f1-score-ade299cf63cd) for a full and clear explanation.
 Since we designed our model to recognise the 7 universal facial emotions and the FERPlus dataset had an 8th class for 'contempt' emotions, we decided to add all contempt class' examples to the 'neutral' class rather than throwing this data away.
 Here's how our confusion matrix for the 7 classes looks like, the X-axis is for predicted labels and the Y-axis is for the true ones.
 F1 score = 0.8.
+![96011743-9a582e00-0e43-11eb-9b95-eba91f99aa6f](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/b620f051-1ce7-4ba5-a0c2-a72b960d623a)
 
-![96011743-9a582e00-0e43-11eb-9b95-eba91f99aa6f](https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition/assets/66418501/1486361a-2377-4e5a-a7fa-39e63f97d7c8)
 
 
 
