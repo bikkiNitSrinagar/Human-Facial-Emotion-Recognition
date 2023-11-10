@@ -17,4 +17,4 @@ A tensorflow/keras implementation of a facial emotion recognition model based on
 * matplotlib >= 3.3.1
 ## Installation
  1.Clone the repo
- [fhf]
+ [][https://github.com/bikkiNitSrinagar/Human-Facial-Emotion-Recognition]
